@@ -3,7 +3,7 @@ var LOCATION_NAMES = ['Study', 'Dining Room', 'Billiard Room', 'Library', 'Conse
 var WEAPON_NAMES = ['Acid', 'Axe', 'Battleaxe', 'Candlestick', 'Chainsaw', 'Cinderblock', 'Doberman', 'Jack', 'Knife', 'Lead Pipe', 'Laser', 'Machine Gun', 'Machete', 'Poison', 'Revolver', 'Rifle', 'Rope', 'Sword', 'Shotgun', 'Wrench']
 
 document.addEventListener("DOMContentLoaded", function() {
-    for (var i = 0; i < 100; i++) {
+    for (var i = 1; i < 101; i++) {
         var h3 = document.createElement('h3');
         var h3Text = `Accusation${i}`;
         var h3TextNode = document.createTextNode(h3Text);
