@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function handleAccusation(i) {
         return function() {
-            alert(`Accusation${i}: I accuse ${FRIEND_NAMES[i % 5]}, with the ${WEAPON_NAMES[i % 10]} in the ${LOCATION_NAMES[i % 20]}!`);
+            alert(`Accusation${i}: I accuse ${FRIEND_NAMES[i % 5]}, with the ${WEAPON_NAMES[i % 20]} in the ${LOCATION_NAMES[i % 10]}!`);
         }
     }
 })
