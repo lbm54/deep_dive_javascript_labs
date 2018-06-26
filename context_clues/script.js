@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         document.body.appendChild(h3);
     }
 
+    //when functions are created they get a snapshot
     function handleAccusation(i) {
         return function() {
             alert(`Accusation${i + 1}: I accuse ${FRIEND_NAMES[i % 5]}, with the ${WEAPON_NAMES[i % 20]} in the ${LOCATION_NAMES[i % 10]}!`);
